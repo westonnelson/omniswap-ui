@@ -17,13 +17,11 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  @apply bg-dark text-light;
+}
+
+.header-button {
+  @apply bg-accent text-white py-2 px-4 rounded mx-2;
 }
 
 @layer utilities {
