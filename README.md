@@ -1,4 +1,4 @@
-Omnichain DEX powered by LayerZero
+# Omnichain DEX powered by LayerZero
 
 ## Getting Started
 
