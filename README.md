@@ -2,7 +2,7 @@
 
 OmniSwap is the first comprehensive Omnichain DEX powered by LayerZero. 
 
-Visit [OmniSwap](https//omniswap.com)
+Visit [OmniSwap](https//omniswap.network)
 
 ## Getting Started with the Omniswap codebase
 
