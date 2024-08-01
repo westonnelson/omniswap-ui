@@ -1,4 +1,5 @@
 import SwapForm from './SwapForm';
+import Image from 'next/image';
 
 const Main: React.FC = () => {
   return (
@@ -11,35 +12,35 @@ const Main: React.FC = () => {
           <table className="min-w-full leading-normal">
             <thead>
               <tr>
-                <th className="px-5 py-3 border-b-2 border-gray-200 bg-gray-700 text-left text-xs font-semibold text-gray-300 uppercase tracking-wider">
+                <th className="px-3 md:px-5 py-2 md:py-3 border-b-2 border-gray-200 bg-gray-700 text-left text-xs md:text-sm font-semibold text-gray-300 uppercase tracking-wider">
                   Chain
                 </th>
-                <th className="px-5 py-3 border-b-2 border-gray-200 bg-gray-700 text-left text-xs font-semibold text-gray-300 uppercase tracking-wider">
+                <th className="px-3 md:px-5 py-2 md:py-3 border-b-2 border-gray-200 bg-gray-700 text-left text-xs md:text-sm font-semibold text-gray-300 uppercase tracking-wider">
                   Assets
                 </th>
-                <th className="px-5 py-3 border-b-2 border-gray-200 bg-gray-700 text-left text-xs font-semibold text-gray-300 uppercase tracking-wider">
+                <th className="px-3 md:px-5 py-2 md:py-3 border-b-2 border-gray-200 bg-gray-700 text-left text-xs md:text-sm font-semibold text-gray-300 uppercase tracking-wider">
                   Amount
                 </th>
-                <th className="px-5 py-3 border-b-2 border-gray-200 bg-gray-700 text-left text-xs font-semibold text-gray-300 uppercase tracking-wider">
+                <th className="px-3 md:px-5 py-2 md:py-3 border-b-2 border-gray-200 bg-gray-700 text-left text-xs md:text-sm font-semibold text-gray-300 uppercase tracking-wider">
                   APR
                 </th>
-                <th className="px-5 py-3 border-b-2 border-gray-200 bg-gray-700 text-left text-xs font-semibold text-gray-300 uppercase tracking-wider">
+                <th className="px-3 md:px-5 py-2 md:py-3 border-b-2 border-gray-200 bg-gray-700 text-left text-xs md:text-sm font-semibold text-gray-300 uppercase tracking-wider">
                   Insights
                 </th>
-                <th className="px-5 py-3 border-b-2 border-gray-200 bg-gray-700 text-left text-xs font-semibold text-gray-300 uppercase tracking-wider">
+                <th className="px-3 md:px-5 py-2 md:py-3 border-b-2 border-gray-200 bg-gray-700 text-left text-xs md:text-sm font-semibold text-gray-300 uppercase tracking-wider">
                   Locked Boost APR
                 </th>
-                <th className="px-5 py-3 border-b-2 border-gray-200 bg-gray-700 text-left text-xs font-semibold text-gray-300 uppercase tracking-wider">
+                <th className="px-3 md:px-5 py-2 md:py-3 border-b-2 border-gray-200 bg-gray-700 text-left text-xs md:text-sm font-semibold text-gray-300 uppercase tracking-wider">
                   LP Chain
                 </th>
-                <th className="px-5 py-3 border-b-2 border-gray-200 bg-gray-700 text-left text-xs font-semibold text-gray-300 uppercase tracking-wider">
+                <th className="px-3 md:px-5 py-2 md:py-3 border-b-2 border-gray-200 bg-gray-700 text-left text-xs md:text-sm font-semibold text-gray-300 uppercase tracking-wider">
                   Actions
                 </th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td className="px-5 py-5 border-b border-gray-200 bg-gray-800 text-sm text-center" colSpan={8}>
+                <td className="px-3 md:px-5 py-2 md:py-5 border-b border-gray-200 bg-gray-800 text-sm text-center" colSpan={8}>
                   No active positions
                 </td>
               </tr>
@@ -61,35 +62,35 @@ const Main: React.FC = () => {
           <table className="min-w-full leading-normal">
             <thead>
               <tr>
-                <th className="px-5 py-3 border-b-2 border-gray-200 bg-gray-700 text-left text-xs font-semibold text-gray-300 uppercase tracking-wider">
+                <th className="px-3 md:px-5 py-2 md:py-3 border-b-2 border-gray-200 bg-gray-700 text-left text-xs md:text-sm font-semibold text-gray-300 uppercase tracking-wider">
                   Chain
                 </th>
-                <th className="px-5 py-3 border-b-2 border-gray-200 bg-gray-700 text-left text-xs font-semibold text-gray-300 uppercase tracking-wider">
+                <th className="px-3 md:px-5 py-2 md:py-3 border-b-2 border-gray-200 bg-gray-700 text-left text-xs md:text-sm font-semibold text-gray-300 uppercase tracking-wider">
                   Assets
                 </th>
-                <th className="px-5 py-3 border-b-2 border-gray-200 bg-gray-700 text-left text-xs font-semibold text-gray-300 uppercase tracking-wider">
+                <th className="px-3 md:px-5 py-2 md:py-3 border-b-2 border-gray-200 bg-gray-700 text-left text-xs md:text-sm font-semibold text-gray-300 uppercase tracking-wider">
                   Amount
                 </th>
-                <th className="px-5 py-3 border-b-2 border-gray-200 bg-gray-700 text-left text-xs font-semibold text-gray-300 uppercase tracking-wider">
+                <th className="px-3 md:px-5 py-2 md:py-3 border-b-2 border-gray-200 bg-gray-700 text-left text-xs md:text-sm font-semibold text-gray-300 uppercase tracking-wider">
                   APR
                 </th>
-                <th className="px-5 py-3 border-b-2 border-gray-200 bg-gray-700 text-left text-xs font-semibold text-gray-300 uppercase tracking-wider">
+                <th className="px-3 md:px-5 py-2 md:py-3 border-b-2 border-gray-200 bg-gray-700 text-left text-xs md:text-sm font-semibold text-gray-300 uppercase tracking-wider">
                   Insights
                 </th>
-                <th className="px-5 py-3 border-b-2 border-gray-200 bg-gray-700 text-left text-xs font-semibold text-gray-300 uppercase tracking-wider">
+                <th className="px-3 md:px-5 py-2 md:py-3 border-b-2 border-gray-200 bg-gray-700 text-left text-xs md:text-sm font-semibold text-gray-300 uppercase tracking-wider">
                   Locked Boost APR
                 </th>
-                <th className="px-5 py-3 border-b-2 border-gray-200 bg-gray-700 text-left text-xs font-semibold text-gray-300 uppercase tracking-wider">
+                <th className="px-3 md:px-5 py-2 md:py-3 border-b-2 border-gray-200 bg-gray-700 text-left text-xs md:text-sm font-semibold text-gray-300 uppercase tracking-wider">
                   LP Chain
                 </th>
-                <th className="px-5 py-3 border-b-2 border-gray-200 bg-gray-700 text-left text-xs font-semibold text-gray-300 uppercase tracking-wider">
+                <th className="px-3 md:px-5 py-2 md:py-3 border-b-2 border-gray-200 bg-gray-700 text-left text-xs md:text-sm font-semibold text-gray-300 uppercase tracking-wider">
                   Actions
                 </th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td className="px-5 py-5 border-b border-gray-200 bg-gray-800 text-sm text-center" colSpan={8}>
+                <td className="px-3 md:px-5 py-2 md:py-5 border-b border-gray-200 bg-gray-800 text-sm text-center" colSpan={8}>
                   No past LP positions
                 </td>
               </tr>

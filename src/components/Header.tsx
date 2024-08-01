@@ -4,14 +4,14 @@ import Image from 'next/image';
 const Header: React.FC = () => {
   return (
     <header className="bg-dark p-4 text-light">
-      <div className="container mx-auto flex flex-wrap items-center justify-between">
+      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
         {/* Logo, Title, and Powered By Section */}
-        <div className="flex flex-col items-center text-center">
+        <div className="flex flex-col items-center text-center md:text-left">
           <div className="flex items-center space-x-2">
             <Image src="/omniswapwhite.png" alt="OmniSwap Logo" width={40} height={40} />
             <div className="text-2xl font-bold">OmniSwap</div>
           </div>
-          <div className="flex flex-col items-center mt-2">
+          <div className="mt-2 flex flex-col items-center md:items-start">
             <span className="text-sm text-gray-400">Powered By</span>
             <Image src="/layerzero.png" alt="LayerZero" width={80} height={20} />
           </div>
@@ -25,7 +25,7 @@ const Header: React.FC = () => {
             <li><Link href="/lock" className="header-button">Lock</Link></li>
             <li><Link href="/vote" className="header-button">Vote</Link></li>
             <li><Link href="/rewards" className="header-button">Rewards</Link></li>
-            <li><Link href="/oomnix" className="header-button">oOMNIX</Link></li>
+            <li><Link href="/oomnis" className="header-button">oOMNIS</Link></li>
           </ul>
         </nav>
 

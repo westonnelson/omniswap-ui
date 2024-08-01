@@ -1,4 +1,7 @@
 // src/components/SwapForm.tsx
+import React from 'react';
+import Image from 'next/image';
+
 const SwapForm: React.FC = () => {
     return (
       <div className="bg-gray-800 p-8 rounded-lg shadow-lg w-96">
